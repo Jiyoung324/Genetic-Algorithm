@@ -51,7 +51,7 @@
                             {i--;
                             break;}
                         }
-                     }</code></pre>
+                     </code></pre>
  
 2. **fitness**  함수를 통해 선출된 a 집단의 적합도를 판별한다.
  <pre><code>
@@ -98,7 +98,6 @@
                 }
             else
                 arr[i] = x[i];
-              }
  </code></pre>
  
    
@@ -110,7 +109,6 @@
                 ftmin = a[i];
             if(fftmin>x[i])
                 fftmin = x[i];
-        }
 
         int ftex=0;
         if(ftmin <= fftmin) // 유전한 적합도의 최저값이 이전과 작거나 같을 경우 유전 종료
